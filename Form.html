@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Pendaftaran</title>
+        <style type="text/css">
+            .container {
+                width: 35%;
+                margin: auto;
+                background-color:lightblue;
+            }
+            .tulisan {
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+                padding-top: 50px;
+            }
+            table {
+                margin: auto;
+            }
+            .table td {
+                padding-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="tulisan" style="color:black;">Formulir Pendaftaran</h1>
+            <form action="">
+                <table class="table">
+                    <tr>
+                        <td><label for="name">Nama</label></td>
+                        <td><input type="text" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Tempat Tanggal Lahir</label></td>
+                        <td><input type="" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Jenis Kelamin</label></td>
+                        <td><input type="radio" class="input" name="gender" id="laki_laki">Laki-laki</td>
+                        <td><input type="radio" class="input" name="gender" id="perempuan">Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Alamat</label></td>
+                        <td><input type="text" class="input" name="address" id="address"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Agama</label></td>
+                        <td><Select name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hobi">Hobi</label></td>
+                        <td><input type="text" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" class="input" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" class="input" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="confirm_password">Konfirmasi Password</label></td>
+                        <td><input type="password" class="input" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="input">Submit</button></td>
+                    </tr>
+                </table>  
+            </form>
+        </div>
+    </body>
+</html>
